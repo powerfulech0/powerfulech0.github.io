@@ -1,0 +1,118 @@
+/* -- Media Styles -- */
+body {
+    background-image: url(../images/body-background.jpg);
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.75;
+}
+
+.img-responsive {
+    width: 300px;
+}
+
+/* -- Navbar Styles -- */
+.navbar-default {
+  background-color: #003374;
+  border-color: #0088ae;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #0088ae;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #0088ae;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #0088ae;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0088ae;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #0088ae;
+  }
+}
+/* -- End of Navbar Styles -- */
+
+/* -- Main Styles --*/
+#aboutme {
+    background-color: white;
+    padding: 30px;
+}
+
+#aboutme h2 {
+    margin: 0 0 20px 0;
+}
+
+#aboutme h4 {
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+
+#accordion {
+    margin-top: 20px;
+}
+
+#accordion h4 {
+    margin: 0;
+}
