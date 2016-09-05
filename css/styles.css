@@ -1,13 +1,16 @@
-/* -- Media Styles -- */
+
 body {
     background-image: url(../images/body-background.jpg);
     font-family: 'Cairo', sans-serif;
     line-height: 1.75;
 }
 
+/* -- Media Styles -- */
 .img-responsive {
-    width: 300px;
+    width: 250px;
+    border: 1px solid black;
 }
+/* -- End of Media Styles --*/
 
 /* -- Navbar Styles -- */
 .navbar-default {
@@ -102,6 +105,7 @@ body {
 
 #aboutme h2 {
     margin: 0 0 20px 0;
+    color: #0088ae;
 }
 
 #aboutme h4 {
