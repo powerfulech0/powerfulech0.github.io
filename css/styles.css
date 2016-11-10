@@ -7,7 +7,7 @@ body {
 
 /* -- Media Styles -- */
 .img-responsive {
-    width: 250px;
+    width: 350px;
     border: 1px solid black;
 }
 /* -- End of Media Styles --*/
@@ -98,20 +98,36 @@ body {
 /* -- End of Navbar Styles -- */
 
 /* -- Main Styles --*/
-#aboutme {
+#aboutme, #portfolio {
     background-color: white;
     padding: 30px;
 }
 
-#aboutme h2 {
+#aboutme h2, #portfolio h2 {
     margin: 0 0 20px 0;
     color: #0088ae;
+    font-size: 2.5em;
 }
 
-#aboutme h4 {
+#aboutme h4, #portfolio h4 {
     margin: 20px 0 20px 0;
     font-weight: bold;
+    font-size: 1.75em;
 }
+
+#aboutme h2, #aboutme h4, #portfolio h2, #portfolio h4 {
+    text-align: center;
+}
+
+#aboutme p, #portfolio p {
+    font-size: 1.15em;
+}
+
+#portfolio {
+    margin-top: 40px;
+}
+
+/* -- Panel Styles -- */
 
 #accordion {
     margin-top: 20px;
@@ -119,4 +135,20 @@ body {
 
 #accordion h4 {
     margin: 0;
+}
+
+#headingOne, #headingTwo, #headingThree {
+    background-color: #003374;
+}
+
+.panel-title {
+    color: #ffffff;
+}
+
+.panel-body {
+    font-size: 1.15em;
+}
+
+.panel-body h6 {
+    font-size: 1.5em;
 }
