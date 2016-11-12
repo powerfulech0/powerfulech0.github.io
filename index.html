@@ -1,162 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gregory Rearden's Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Gregory Rearden: powerfulech0</a>
-                </div>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gregory Rearden's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Gregory Rearden: powerfulech0</a>
+        </div>
                 
-                <div class="collapse navbar-collapse navbar-right" id="header-navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">About Me<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="collapse navbar-collapse navbar-right" id="header-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About Me<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        
+    <div class="main">
+      <div class="container">
+        <div id="aboutme">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>About Me</h2>
+              <h4>Quick Info</h4>
+              <p>My name is Gregory Rearden, and I am a web developer from Westfield, Indiana. I have developed a passion for web development in the past few years, mainly with HTML/CSS and JavaScript. I
+                want to use my college degree to become employed in a full-time web development position. Below, you will find the tabs have various information listed about me and my credentials. If you have
+                any questions, please do not hesitate to contact me via social media or through an email, which is found on the "Contact" section of this page.</p>
+              <p>This portfolio page was created using HTML/CSS, Bootstrap, and JavaScript.</p>
             </div>
-        </nav>
-        
-        <div class="main">
-            <div class="container">
-                <div id="aboutme">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h2>About Me</h2>
-                            <h4>Quick Info</h4>
-                            <p>My name is Gregory Rearden, and I am a web developer from Westfield, Indiana. I have developed a passion for web development in the past few years, mainly with HTML/CSS and JavaScript. I
-                            want to use my college degree to become employed in a full-time web development position. Below, you will find the tabs have various information listed about me and my credentials. If you have
-                            any questions, please do not hesitate to contact me via social media or through an email, which is found on the "Contact" section of this page.</p>
-                            <p>This portfolio page was created using HTML/CSS, Bootstrap, and JavaScript.</p>
+            <div class="col-md-4">
+              <img class="img-responsive img-circle center-block" src="images/bigpicture-me.jpg"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Academic History
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h6>School</h6>
+                          <ul>
+                            <li>Bachelor of Arts in Interactive Media, December 2016</li>
+                            <li>Minor in Recording Industry Studies</li>
+                            <li>Butler University, Indianapolis, IN</li>
+                            <li>Coursework Included:
+                              <ul>
+                                <li>Design for World Wide Web</li>
+                                <li>Survey of Digital Media</li>
+                                <li>Introduction to Computer Science</li>
+                                <li>Robot Programming</li>
+                                <li>Interaction Design</li>
+                              </ul>
+                            </li>
+                          </ul>
                         </div>
-                        <div class="col-md-4">
-                            <img class="img-responsive img-circle center-block" src="images/bigpicture-me.jpg"/>
+                        <div class="col-md-6">
+                          <h6>Technical Skills</h6>
+                          <ul>     
+                            <li>HTML</li>
+                            <li>CSS
+                                <ul>
+                                    <li>Bootstrap</li>
+                                    <li>Responsive Design Principles</li>
+                                </ul>
+                            </li>
+                            <li>JavaScript
+                                <ul>
+                                    <li>jQuery</li>
+                                    <li>Angular</li>
+                                </ul>
+                            </li>
+                            <li>PHP</li>
+                            <li>Adobe Photoshop, Illustrator, Audition, Premiere</li>
+                          </ul> 
                         </div>
+                      </div>                               
                     </div>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Academic History
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                        <div class="panel-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h6>School</h6>
-                                                    <ul>
-                                                        <li>Bachelor of Arts in Interactive Media, December 2016</li>
-                                                        <li>Minor in Recording Industry Studies</li>
-                                                        <li>Butler University, Indianapolis, IN</li>
-                                                        <li>Coursework Included:
-                                                            <ul>
-                                                                <li>Design for World Wide Web</li>
-                                                                <li>Survey of Digital Media</li>
-                                                                <li>Introduction to Computer Science</li>
-                                                                <li>Robot Programming</li>
-                                                                <li>Interaction Design</li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <h6>Technical Skills</h6>
-                                                    <ul>     
-                                                        <li>HTML</li>
-                                                        <li>CSS
-                                                            <ul>
-                                                                <li>Bootstrap</li>
-                                                                <li>Responsive Design Principles</li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>JavaScript
-                                                            <ul>
-                                                                <li>jQuery</li>
-                                                                <li>Angular</li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>PHP</li>
-                                                        <li>Adobe Photoshop, Illustrator, Audition, Premiere</li>
-                                                    </ul> 
-                                                </div>
-                                            </div>
-                                                
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingTwo">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Work History
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                        <div class="panel-body">
-                                            <h6><strong>Web Development Intern</strong></h6>
-                                            <h6>Wynventory by Bidwell Nalley, Remote (Indianapolis, IN)</h6>
-                                            <h6>May 2015 - August 2015</h6>
-                                            <ul>
-                                                <li>Worked on the back end development of the site, fixing bugs and adding features</li>
-                                                <li>Added code using HTML, CSS, Javascript &amp; jQuery, and C#</li>
-                                                <li>Managed database work using SQL &amp; Microsoft Software</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Other Information
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard 
-                                            dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla 
-                                            assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
-                                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- #aboutme -->
-                <div id="portfolio">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h2>Portfolio</h2> 
-                            <h4>Projects I've Worked On</h4>
-                        </div> 
-                    </div> <!-- #portfolio --> 
+                  </div>
                 </div>
-            </div> <!-- .container -->
-        </div> <!-- .main -->
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Work History
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <h6><strong>Web Development Intern</strong></h6>
+                      <h6>Wynventory by Bidwell Nalley, Remote (Indianapolis, IN)</h6>
+                      <h6>May 2015 - August 2015</h6>
+                      <ul>
+                        <li>Worked on the back end development of the site, fixing bugs and adding features</li>
+                        <li>Added code using HTML, CSS, Javascript &amp; jQuery, and C#</li>
+                        <li>Managed database work using SQL &amp; Microsoft Software</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #aboutme -->
+        <div id="portfolio">
+          <div class="row">
+              <h2>Portfolio</h2> 
+              <h4>Projects I've Worked On</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <h2><a href="https://powerfulech0.github.io/supermegashuffle">SuperMega Shuffle</a></h2>
+              <p>SuperMega Shuffle is a project for an Independent Study course at Butler University. The purpose of this course was to learn how to use AngularJS, specifically to make one-page web applications. The application gets the YouTube channel SuperMega's uploaded videos and puts them into a playlist. You can shuffle this playlist and play the videos in the same page, with the YouTube Iframe API. This project uses HTML, CSS, and JavaScript. Libraries include Bootstrap and AngularJS.</p>
+
+              <p><a href="https://www.youtube.com/channel/UCPPc2PdtA7gCMbjYp_i_TKA">SuperMega's Channel</a></p>
+
+              <p>Thanks to Fran Dios, whose tutorial "Make A YouTube App With AngularJS and OnsenUI" was helpful to help me learn AngularJS. Part of his code from this tutorial is used for this project, and the MIT license is included in the GitHub repository.</p>
+
+              <p><a href="https://onsen.io/blog/onsen-ui-youtube-api-v3/">Make A YouTube App With AngularJS and OnsenUI</a></p>
+            </div> 
+            <div class="col-md-4">
+              <img class="img img-responsive img-thumbnail" src="images/supermegapic.jpg">
+            </div>
+          </div> <!-- #portfolio --> 
+        </div>
+      </div> <!-- .container -->
+    </div> <!-- .main -->
         
-        <!-- Script Section -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    </body>
+    <!-- Script Section -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
 </html>
