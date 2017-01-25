@@ -4,18 +4,22 @@
 }
 
 body {
-    background-image: url(../images/body-background.jpg);
-    font-family: 'Cairo', sans-serif;
-    line-height: 1.75;
+  background-image: url(../images/body-background.jpg);
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.75;
+}
+
+#aboutme {
+  margin-top: 20px;
 }
 
 /* -- Media Styles -- */
 .img-responsive {
-    width: 350px;
-    border: 1px solid black;
+  width: 350px;
+  border: 1px solid black;
 }
 
-.supermegaproject:hover {
+.supermegashufflelink:hover, #supermega:hover, #frandios:hover {
   cursor: pointer;
 }
 /* -- End of Media Styles --*/
