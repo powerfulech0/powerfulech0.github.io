@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gregory Rearden's Portfolio</title>
+    <script src="https://use.fontawesome.com/5c41504d79.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -24,7 +25,7 @@
           <ul class="nav navbar-nav">
             <li class="active" id="aboutmetab"><a href="#">About Me<span class="sr-only">(current)</span></a></li>
             <li id="portfoliotab"><a href="#portfolio">Portfolio</a></li>
-            <li id="contacttab"><a href="#">Contact</a></li>
+            <li id="contacttab"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -142,8 +143,37 @@
             <div class="col-md-4">
               <img class="img img-responsive img-thumbnail supermegashufflelink" src="images/supermegapic.jpg">
             </div>
-          </div> <!-- #portfolio --> 
-        </div>
+          </div>  
+        </div> <!-- #portfolio -->
+        <div id="contact">
+          <div class="row">
+            <h2>Contact</h2> 
+            <h4>Social Links</h4>
+            <ul id="social">
+              <li><i class="fa fa-5x fa-github-square" id="github"></i></li>
+              <li><i class="fa fa-5x fa-linkedin-square" id="linkedin"></i></li>
+            <ul>
+            <h4>Send me an E-mail!</h4>
+            <div class="col-md-8 col-md-offset-2">
+              <form method="POST" action="emailhandler.php">
+                <div class="form-group">
+                  <label for="name">Name (Person or Organization)</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail Address</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Question or Comment</label>
+                  <textarea class="form-control" rows="5" id="message" name="message" required>
+                  </textarea>
+                </div>
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>  
+          </div>
+        </div> <!-- #contact -->
       </div> <!-- .container -->
     </div> <!-- .main -->
         

@@ -24,6 +24,35 @@ body {
 }
 /* -- End of Media Styles --*/
 
+/* -- Social Styles -- */
+#social {
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+#social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#github {
+  color: #6e5494;
+}
+
+#github:hover {
+  cursor: pointer;
+}
+
+#linkedin {
+  color: #0077b5;
+}
+
+#linkedin:hover {
+  cursor: pointer;
+}
+/* -- End of Social Styles -- */
+
 /* -- Navbar Styles -- */
 .navbar-default {
   background-color: #003374;
@@ -113,32 +142,32 @@ body {
 /* -- End of Navbar Styles -- */
 
 /* -- Main Styles --*/
-#aboutme, #portfolio {
+#aboutme, #portfolio, #contact {
     background-color: white;
     padding: 30px;
 }
 
-#aboutme h2, #portfolio h2 {
+#aboutme h2, #portfolio h2, #contact h2 {
     margin: 0 0 20px 0;
     color: #0088ae;
     font-size: 2.5em;
 }
 
-#aboutme h4, #portfolio h4 {
+#aboutme h4, #portfolio h4, #contact h4 {
     margin: 20px 0 20px 0;
     font-weight: bold;
     font-size: 1.75em;
 }
 
-#aboutme h2, #aboutme h4, #portfolio h2, #portfolio h4 {
+#aboutme h2, #aboutme h4, #portfolio h2, #portfolio h4, #contact h2, #contact h4 {
     text-align: center;
 }
 
-#aboutme p, #portfolio p {
+#aboutme p, #portfolio p, #contact p {
     font-size: 1.15em;
 }
 
-#portfolio {
+#portfolio, #contact {
     margin-top: 40px;
 }
 
