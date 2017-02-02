@@ -19,7 +19,11 @@ body {
   border: 1px solid black;
 }
 
-.supermegashufflelink:hover, #supermega:hover, #frandios:hover {
+#siteawimg {
+  border: none;
+}
+
+.supermegashufflelink:hover, .siteawlink:hover, #supermega:hover, #oldsiteaw:hover, #frandios:hover {
   cursor: pointer;
 }
 /* -- End of Media Styles --*/
@@ -163,7 +167,7 @@ body {
     text-align: center;
 }
 
-#aboutme p, #portfolio p, #contact p {
+#aboutme p, #portfolio p, #portfolio li, #contact p {
     font-size: 1.15em;
 }
 
