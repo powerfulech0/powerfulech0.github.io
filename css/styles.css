@@ -1,61 +1,8 @@
-.row {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 body {
   background-image: url(../images/body-background.jpg);
   font-family: 'Cairo', sans-serif;
   line-height: 1.75;
 }
-
-#aboutme {
-  margin-top: 20px;
-}
-
-/* -- Media Styles -- */
-.img-responsive {
-  width: 350px;
-  border: 1px solid black;
-}
-
-#siteawimg {
-  border: none;
-}
-
-.supermegashufflelink:hover, .siteawlink:hover, #supermega:hover, #oldsiteaw:hover, #frandios:hover {
-  cursor: pointer;
-}
-/* -- End of Media Styles --*/
-
-/* -- Social Styles -- */
-#social {
-  margin: 20px 0;
-  padding: 0;
-  text-align: center;
-}
-
-#social li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-#github {
-  color: #6e5494;
-}
-
-#github:hover {
-  cursor: pointer;
-}
-
-#linkedin {
-  color: #0077b5;
-}
-
-#linkedin:hover {
-  cursor: pointer;
-}
-/* -- End of Social Styles -- */
 
 /* -- Navbar Styles -- */
 .navbar-default {
@@ -146,29 +93,33 @@ body {
 /* -- End of Navbar Styles -- */
 
 /* -- Main Styles --*/
-#aboutme, #portfolio, #contact {
+.section {
     background-color: white;
     padding: 30px;
 }
 
-#aboutme h2, #portfolio h2, #contact h2 {
+.section h2 {
     margin: 0 0 20px 0;
     color: #0088ae;
     font-size: 2.5em;
 }
 
-#aboutme h4, #portfolio h4, #contact h4 {
+.section h4 {
     margin: 20px 0 20px 0;
     font-weight: bold;
     font-size: 1.75em;
 }
 
-#aboutme h2, #aboutme h4, #portfolio h2, #portfolio h4, #contact h2, #contact h4 {
+.section h2, .section h4 {
     text-align: center;
 }
 
-#aboutme p, #portfolio p, #portfolio li, #contact p {
+.section li, .section p {
     font-size: 1.15em;
+}
+
+#aboutme {
+  margin-top: 20px;
 }
 
 #portfolio, #contact {
@@ -176,11 +127,21 @@ body {
 }
 
 #contact {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
-/* -- Panel Styles -- */
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.supermegashufflelink:hover, .siteawlink:hover, #supermega:hover, #oldsiteaw:hover, #frandios:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* -- End of Main Styles -- */
+
+/* -- Panel Styles -- */
 #accordion {
     margin-top: 20px;
 }
@@ -204,3 +165,44 @@ body {
 .panel-body h6 {
     font-size: 1.5em;
 }
+/* -- End of Panel Styles -- */
+
+/* -- Social Styles -- */
+#social {
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+#social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#github {
+  color: #6e5494;
+}
+
+#github:hover {
+  cursor: pointer;
+}
+
+#linkedin {
+  color: #0077b5;
+}
+
+#linkedin:hover {
+  cursor: pointer;
+}
+/* -- End of Social Styles -- */
+
+/* -- Media Styles -- */
+.img-responsive {
+  width: 350px;
+  border: 1px solid black;
+}
+
+#siteawimg {
+  border: none;
+}
+/* -- End of Media Styles --*/
