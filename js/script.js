@@ -38,17 +38,17 @@ $("#linkedin").on("click", function() {
 	newProjectWindow(linkedin);
 });
 
-$("#portfoliotab").on("click", function() {
-	$(".active").removeClass("active");
-	$("#portfoliotab").addClass("active");
-});
+// $("#portfoliotab").on("click", function() {
+// 	$(".active").removeClass("active");
+// 	$("#portfoliotab").addClass("active");
+// });
 
-$("#aboutmetab").on("click", function() {
-	$(".active").removeClass("active");
-	$("#aboutmetab").addClass("active");
-});
+// $("#aboutmetab").on("click", function() {
+// 	$(".active").removeClass("active");
+// 	$("#aboutmetab").addClass("active");
+// });
 
-$("#contacttab").on("click", function() {
-	$(".active").removeClass("active");
-	$("#contacttab").addClass("active");
-});
+// $("#contacttab").on("click", function() {
+// 	$(".active").removeClass("active");
+// 	$("#contacttab").addClass("active");
+// });

@@ -2,6 +2,7 @@ body {
   background-image: url(../images/body-background.jpg);
   font-family: 'Cairo', sans-serif;
   line-height: 1.75;
+  position: relative;
 }
 
 /* -- Navbar Styles -- */
