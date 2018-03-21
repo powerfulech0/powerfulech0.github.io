@@ -1,8 +1,8 @@
 # Site settings
 title: Gregory Rearden's Portfolio
-description: My portfolio for web development.
+description: Gregory Rearden's development portfolio. Contains experience and projects.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://gregoryrearden.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Gregory Rearden
@@ -13,6 +13,9 @@ github_username:  powerfulech0
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-116160978-1"
+
+plugins:
+  - jekyll-seo-tag
 
 exclude: ['package.json', 'src' , 'node_modules']
